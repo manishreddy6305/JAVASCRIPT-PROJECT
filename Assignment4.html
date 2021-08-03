@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assignment-4.css">
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2alyj13UOpV5gihvNxxR0XZ57aFRAtzz4_Q&usqp=CAU" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a07e4b20fd.js" crossorigin="anonymous"></script>
+    <title>TO-DO</title>
+</head>
+<body>
+    <div class="container">
+    <div class="main">
+     <div class="heading">
+            <div class="child one">
+            <h1>Tasks </h1>
+            <span style="font-family:Roboto">List</span>
+            </div>
+            <div class="child two">
+            <i class="fas fa-plus-circle"></i>
+            <span class="list" style="font-family: Roboto;">Add Item</span>
+            </div>
+     </div>
+     </div>
+     <div class="main2" >
+     <div id="Empty">No Items in the todo list</div>
+     </div>
+    </div>
+    <div class="main3 " id="popup">
+    <div class="blur">
+        <p class="new">Add New List</p>
+        <input type="text" name="List" id="text" placeholder="Add New List" required>
+        <p class="required">* Required</p>
+        <div class="add-close">
+        <input type="submit" name="add" class="s1" value="Add">
+        <input type="submit" name="add" value="Close" class="s2">
+    </div>
+    </div>
+    </div>
+    <div class="main4">
+        <div id="addlist"></div>
+    </div>
+    <div class="main3 " id="popup2">
+        <div class="blur">
+            <p class="new">Add New Item</p>
+            <input type="text" name="List" id="text1" placeholder="Add New List" required>
+            <p class="required">* Required</p>
+            <div class="add-close">
+            <input type="submit" name="add" id="submit1" class="s1" value="Add">
+            <input type="submit" name="add" id="submit2" value="Close" class="s2">
+        </div>
+    </div>
+    </div>
+</body>
+<script src="Assignment4.js"></script>
+</html>
